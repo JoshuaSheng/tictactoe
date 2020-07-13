@@ -1,0 +1,26 @@
+body {
+
+}
+#container {
+  background-color: grey;
+  text-align: center;
+}
+#tictactoe {
+  padding: 10px;
+  background-color: black;
+  display: grid;
+  height: 500px;
+  width: 500px;
+  grid-template-columns: repeat(3, 160px);
+  grid-template-rows: repeat(3; 160px);
+  grid-gap: 10px 10px;
+  margin: auto;
+}
+.box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  flex: 0, 0 160px;
+}
